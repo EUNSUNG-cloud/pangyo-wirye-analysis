@@ -22,23 +22,23 @@
   },
   "wirye": {
     "label": "위례",
-    "area_ha": 55.9,
-    "n_parcel_lsmd": 339,
-    "n_matched": 90,
-    "vac_pnu_pct": 76.4,
-    "vac_corr_pct": 31.0,
-    "tot_floor_m2": 159680,
-    "far_pct": 29,
-    "lum_H": 0.828,
-    "lum_norm": 0.754,
-    "pop_in_zone": 3768,
-    "emp_in_zone": 1414,
-    "biz_in_zone": 302,
-    "job_housing_ratio": 0.38,
+    "area_ha": 164.8,
+    "n_parcel_lsmd": 304,
+    "n_matched": 75,
+    "vac_pnu_pct": 78.0,
+    "vac_corr_pct": 56.9,
+    "tot_floor_m2": 1093144,
+    "far_pct": 66,
+    "lum_H": 0.96,
+    "lum_norm": 0.874,
+    "pop_in_zone": 13079,
+    "emp_in_zone": 12554,
+    "biz_in_zone": 2797,
+    "job_housing_ratio": 0.96,
     "cat_area_m2": {
-      "업무·연구": 106929,
-      "상업·근생": 38285,
-      "기타비주거": 14466
+      "업무·연구": 498838,
+      "상업·근생": 476766,
+      "기타비주거": 117540
     }
   }
 }

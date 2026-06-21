@@ -10,13 +10,13 @@
     "office_area_m2": 1990847
   },
   "wirye": {
-    "area_ha": 144.7,
-    "n_parcel": 2162,
-    "n_non_resi": 487,
+    "area_ha": 164.8,
+    "n_parcel": 304,
+    "n_non_resi": 67,
     "n_resi": 0,
-    "n_empty": 1675,
-    "non_resi_pct": 22.5,
-    "empty_rate": 77.5,
-    "office_area_m2": 6800
+    "n_empty": 237,
+    "non_resi_pct": 22.0,
+    "empty_rate": 78.0,
+    "office_area_m2": 349972
   }
 }

@@ -72,8 +72,8 @@ def census_in_zone(oa_gdf, poly):
             "biz": float((cands["biz_tot"]*cands["r"]).sum())}
 
 # ── 원본 건물 수 (전체 동 기준, 공지율 보정용) ───────────────────
-BLD_CNT_TOTAL = {"pangyo": 423, "wirye": 3730}   # API 수집 결과
-LSMD_TOTAL    = {"pangyo": 421, "wirye": 5405}
+BLD_CNT_TOTAL = {"pangyo": 423, "wirye": 2430}   # 창곡동920+복정동840+송파670
+LSMD_TOTAL    = {"pangyo": 421, "wirye": 5632}   # 창곡동943+복정동2919+송파1770
 
 # ── 분석 루프 ─────────────────────────────────────────────────────
 results = {}

@@ -1,0 +1,26 @@
+{
+  "판교_삼평동": {
+    "sigunguCd": "41135",
+    "bjdongCd": "10900",
+    "title_cnt": 423,
+    "recap_cnt": 32
+  },
+  "위례_창곡동": {
+    "sigunguCd": "41131",
+    "bjdongCd": "10800",
+    "title_cnt": 920,
+    "recap_cnt": 28
+  },
+  "위례_복정동": {
+    "sigunguCd": "41131",
+    "bjdongCd": "10700",
+    "title_cnt": 840,
+    "recap_cnt": 18
+  },
+  "위례_송파": {
+    "sigunguCd": "11710",
+    "bjdongCd": "10900",
+    "title_cnt": 670,
+    "recap_cnt": 52
+  }
+}

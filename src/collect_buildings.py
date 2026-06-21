@@ -2,7 +2,7 @@
 건축HUB API 건축물대장 수집
   - getBrTitleInfo    (표제부): 동별 주용도·면적 등
   - getBrRecapTitleInfo (총괄표제부): 집합건물 전체 요약
-대상: 판교(삼평동 41135-10900) / 위례(창곡동 41131-10600, 장지동 11710-11400)
+대상: 판교(삼평동 41135-10900) / 위례(창곡동 41131-10800, 복정동 41131-10700, 송파위례 11710-10900)
 인증키: 환경변수 BLD_SERVICE_KEY (코드 미포함)
 """
 import os, time, json, requests, pandas as pd
@@ -26,9 +26,11 @@ TARGETS = [
     {"label": "판교_삼평동", "area": "pangyo",
      "sigunguCd": "41135", "bjdongCd": "10900"},
     {"label": "위례_창곡동", "area": "wirye",
-     "sigunguCd": "41131", "bjdongCd": "10600"},
-    {"label": "위례_장지동", "area": "wirye",
-     "sigunguCd": "11710", "bjdongCd": "11400"},
+     "sigunguCd": "41131", "bjdongCd": "10800"},   # 4113110800 창곡동
+    {"label": "위례_복정동", "area": "wirye",
+     "sigunguCd": "41131", "bjdongCd": "10700"},   # 4113110700 복정동
+    {"label": "위례_송파", "area": "wirye",
+     "sigunguCd": "11710", "bjdongCd": "10900"},   # 1171010900 송파구 위례
 ]
 
 NUM_ROWS = 100    # 공공데이터포털 API 실제 페이지 최대

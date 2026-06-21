@@ -7,8 +7,19 @@ data/raw/
 data/processed/*.pkl
 data/processed/*.gpkg
 
+# 루트 원본 zip (이미 data/raw/로 이동 또는 다운로드 출처만 기록)
+*.zip
+export.geojson
+
 # 집계구 전체 GeoJSON (143MB, GitHub 불가)
 docs/data/oa_joined.geojson
+
+# 개인 문서·계획 파일
+계획/
+프로젝트_보고서_양식.pdf
+프로젝트_보고서_양식.docx
+~$*.docx
+~$*.xlsx
 
 # Python 캐시
 __pycache__/
