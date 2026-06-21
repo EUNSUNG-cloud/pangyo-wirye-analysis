@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>구역계 확인 — 판교TV vs 위례 업무지구</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<style>
+  body{margin:0;font-family:sans-serif;}
+  #map{width:100vw;height:100vh;}
+  .info{position:absolute;top:10px;right:10px;z-index:1000;
+        background:#fff;padding:14px 16px;border-radius:6px;
+        box-shadow:0 2px 8px rgba(0,0,0,.3);max-width:300px;font-size:13px;}
+  .info h3{margin:0 0 8px;font-size:14px;}
+  .sw{display:inline-block;width:14px;height:14px;border-radius:3px;
+      vertical-align:middle;margin-right:4px;}
+  .row{margin:4px 0;}
+  table{border-collapse:collapse;width:100%;font-size:12px;margin-top:8px;}
+  td,th{border:1px solid #ddd;padding:3px 6px;text-align:right;}
+  th{background:#f5f5f5;text-align:center;}
+  td:first-child{text-align:left;}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="info">
+  <h3>구역계 (Step 2 확정안)</h3>
+  <div class="row"><span class="sw" style="background:#e74c3c"></span>판교TV 삼평동 구역계</div>
+  <div class="row"><span class="sw" style="background:#2980b9"></span>위례 업무지구 구역계 (5군집)</div>
+  <hr style="margin:8px 0">
+  <table>
+    <tr><th>지표</th><th>판교TV</th><th>위례</th></tr>
+    <tr><td>구역 면적</td><td>214.0 ha</td><td>55.9 ha</td></tr>
+    <tr><td>전체 필지</td><td>340</td><td>339</td></tr>
+    <tr><td>비주거 필지</td><td>99</td><td>80</td></tr>
+    <tr><td>빈 필지</td><td>241</td><td>259</td></tr>
+    <tr><td>공지율(보정)</td><td>~0%</td><td>31%</td></tr>
+    <tr><td>평균 용적률</td><td>151%</td><td>29%</td></tr>
+    <tr><td>업무+연구 연면적</td><td>2,906,617 m²</td><td>106,929 m²</td></tr>
+    <tr><td>직주비</td><td>17.33</td><td>0.38</td></tr>
+  </table>
+  <hr style="margin:8px 0">
+  <small>클릭: 구역 속성 팝업 / OSM 배경</small>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const map = L.map('map').setView([37.44, 127.13], 12);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+  {attribution:'© OpenStreetMap',maxZoom:19}).addTo(map);
+
+const styles = {
+  pangyo: {color:'#e74c3c',fillColor:'#e74c3c',weight:2.5,fillOpacity:0.18},
+  wirye:  {color:'#2980b9',fillColor:'#2980b9',weight:2.5,fillOpacity:0.18},
+};
+const labels = {
+  pangyo: '판교TV 삼평동',
+  wirye:  '위례 업무지구',
+};
+
+['pangyo','wirye'].forEach(key => {
+  fetch(`data/${key}.geojson`)
+    .then(r => r.json())
+    .then(data => {
+      const layer = L.geoJSON(data, {
+        style: styles[key],
+        onEachFeature: (f, l) => {
+          l.bindPopup(`<b>${labels[key]}</b>`);
+          l.bindTooltip(labels[key], {sticky:true});
+        }
+      }).addTo(map);
+    });
+});
+</script>
+</body>
+</html>

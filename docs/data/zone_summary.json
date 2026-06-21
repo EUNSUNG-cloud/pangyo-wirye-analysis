@@ -1,0 +1,22 @@
+{
+  "pangyo": {
+    "area_ha": 214.0,
+    "n_parcel": 340,
+    "n_non_resi": 99,
+    "n_resi": 0,
+    "n_empty": 241,
+    "non_resi_pct": 29.1,
+    "empty_rate": 70.9,
+    "office_area_m2": 1990847
+  },
+  "wirye": {
+    "area_ha": 144.7,
+    "n_parcel": 2162,
+    "n_non_resi": 487,
+    "n_resi": 0,
+    "n_empty": 1675,
+    "non_resi_pct": 22.5,
+    "empty_rate": 77.5,
+    "office_area_m2": 6800
+  }
+}

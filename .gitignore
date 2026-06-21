@@ -1,0 +1,27 @@
+# 인증키·환경변수
+.env
+*.env
+
+# 대용량 원본 데이터 (GitHub 100MB 제한)
+data/raw/
+data/processed/*.pkl
+data/processed/*.gpkg
+
+# 집계구 전체 GeoJSON (143MB, GitHub 불가)
+docs/data/oa_joined.geojson
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# 임시 파일
+dong_codes.csv
+gyeonggi_codes.csv
+*.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

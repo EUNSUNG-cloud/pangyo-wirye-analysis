@@ -1,0 +1,211 @@
+{
+  "note": "walk_dist: straight-line, walk_route: x1.2 detour, walk_speed: 4.5km/h. export.geojson unusable (Rome coords).",
+  "walk_correction_table": [
+    {
+      "cutoff": "2016-01-01",
+      "area": "pangyo",
+      "budget_min": 30,
+      "station_label": "신분당선 판교",
+      "walk_dist_m": 870,
+      "walk_route_m": 1045,
+      "walk_min": 13.9,
+      "remaining_min": 16.1,
+      "n_stations_walk": 11,
+      "area_km2_walk": 19.3,
+      "emp_station": 1236377,
+      "emp_walk": 455027,
+      "pop_station": 1041798,
+      "pop_walk": 267381
+    },
+    {
+      "cutoff": "2016-01-01",
+      "area": "pangyo",
+      "budget_min": 60,
+      "station_label": "신분당선 판교",
+      "walk_dist_m": 870,
+      "walk_route_m": 1045,
+      "walk_min": 13.9,
+      "remaining_min": 46.1,
+      "n_stations_walk": 170,
+      "area_km2_walk": 196.2,
+      "emp_station": 5117260,
+      "emp_walk": 3012081,
+      "pop_station": 6765301,
+      "pop_walk": 3374377
+    },
+    {
+      "cutoff": "2016-01-01",
+      "area": "wirye",
+      "budget_min": 30,
+      "station_label": "서울8호선 복정 (대체)",
+      "walk_dist_m": 1676,
+      "walk_route_m": 2011,
+      "walk_min": 26.8,
+      "remaining_min": 3.2,
+      "n_stations_walk": 3,
+      "area_km2_walk": 4.7,
+      "emp_station": 1826616,
+      "emp_walk": 107795,
+      "pop_station": 2093473,
+      "pop_walk": 67599
+    },
+    {
+      "cutoff": "2016-01-01",
+      "area": "wirye",
+      "budget_min": 60,
+      "station_label": "서울8호선 복정 (대체)",
+      "walk_dist_m": 1676,
+      "walk_route_m": 2011,
+      "walk_min": 26.8,
+      "remaining_min": 33.2,
+      "n_stations_walk": 112,
+      "area_km2_walk": 123.4,
+      "emp_station": 4800649,
+      "emp_walk": 2045055,
+      "pop_station": 6616460,
+      "pop_walk": 2464801
+    },
+    {
+      "cutoff": "2026-06-21",
+      "area": "pangyo",
+      "budget_min": 30,
+      "station_label": "신분당선 판교",
+      "walk_dist_m": 870,
+      "walk_route_m": 1045,
+      "walk_min": 13.9,
+      "remaining_min": 16.1,
+      "n_stations_walk": 19,
+      "area_km2_walk": 27.3,
+      "emp_station": 1558121,
+      "emp_walk": 529572,
+      "pop_station": 1474170,
+      "pop_walk": 440237
+    },
+    {
+      "cutoff": "2026-06-21",
+      "area": "pangyo",
+      "budget_min": 60,
+      "station_label": "신분당선 판교",
+      "walk_dist_m": 870,
+      "walk_route_m": 1045,
+      "walk_min": 13.9,
+      "remaining_min": 46.1,
+      "n_stations_walk": 268,
+      "area_km2_walk": 284.2,
+      "emp_station": 5706222,
+      "emp_walk": 3992762,
+      "pop_station": 8513520,
+      "pop_walk": 4842105
+    },
+    {
+      "cutoff": "2026-06-21",
+      "area": "wirye",
+      "budget_min": 30,
+      "station_label": "서울8호선 남위례",
+      "walk_dist_m": 1465,
+      "walk_route_m": 1758,
+      "walk_min": 23.4,
+      "remaining_min": 6.6,
+      "n_stations_walk": 9,
+      "area_km2_walk": 12.4,
+      "emp_station": 1737711,
+      "emp_walk": 168012,
+      "pop_station": 2137201,
+      "pop_walk": 206920
+    },
+    {
+      "cutoff": "2026-06-21",
+      "area": "wirye",
+      "budget_min": 60,
+      "station_label": "서울8호선 남위례",
+      "walk_dist_m": 1465,
+      "walk_route_m": 1758,
+      "walk_min": 23.4,
+      "remaining_min": 36.6,
+      "n_stations_walk": 148,
+      "area_km2_walk": 152.7,
+      "emp_station": 5103044,
+      "emp_walk": 2310436,
+      "pop_station": 7513086,
+      "pop_walk": 2855296
+    }
+  ],
+  "nearby_stations": [
+    {
+      "cutoff": "2016-01-01",
+      "area": "pangyo",
+      "radius_m": 800,
+      "n_stations": 0,
+      "stations": []
+    },
+    {
+      "cutoff": "2016-01-01",
+      "area": "pangyo",
+      "radius_m": 1000,
+      "n_stations": 1,
+      "stations": [
+        {
+          "linenm": "신분당선",
+          "statnm": "판교",
+          "dist_m": 870,
+          "since": "2011-10-28"
+        }
+      ]
+    },
+    {
+      "cutoff": "2016-01-01",
+      "area": "wirye",
+      "radius_m": 800,
+      "n_stations": 0,
+      "stations": []
+    },
+    {
+      "cutoff": "2016-01-01",
+      "area": "wirye",
+      "radius_m": 1000,
+      "n_stations": 0,
+      "stations": []
+    },
+    {
+      "cutoff": "2026-06-21",
+      "area": "pangyo",
+      "radius_m": 800,
+      "n_stations": 0,
+      "stations": []
+    },
+    {
+      "cutoff": "2026-06-21",
+      "area": "pangyo",
+      "radius_m": 1000,
+      "n_stations": 2,
+      "stations": [
+        {
+          "linenm": "경강선",
+          "statnm": "판교",
+          "dist_m": 857,
+          "since": "2016-09-24"
+        },
+        {
+          "linenm": "신분당선",
+          "statnm": "판교",
+          "dist_m": 870,
+          "since": "2011-10-28"
+        }
+      ]
+    },
+    {
+      "cutoff": "2026-06-21",
+      "area": "wirye",
+      "radius_m": 800,
+      "n_stations": 0,
+      "stations": []
+    },
+    {
+      "cutoff": "2026-06-21",
+      "area": "wirye",
+      "radius_m": 1000,
+      "n_stations": 0,
+      "stations": []
+    }
+  ]
+}

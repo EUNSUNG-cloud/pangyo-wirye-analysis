@@ -1,0 +1,172 @@
+{
+  "comparison_table": [
+    {
+      "cutoff": "2016-01-01",
+      "area": "pangyo",
+      "threshold": 30,
+      "n_stations": 47,
+      "area_km2": 67.6,
+      "pop": 1041798,
+      "emp": 1236377,
+      "biz": 174368
+    },
+    {
+      "cutoff": "2016-01-01",
+      "area": "wirye",
+      "threshold": 30,
+      "n_stations": 90,
+      "area_km2": 105.9,
+      "pop": 2093473,
+      "emp": 1826616,
+      "biz": 294542
+    },
+    {
+      "cutoff": "2016-01-01",
+      "area": "pangyo",
+      "threshold": 60,
+      "n_stations": 344,
+      "area_km2": 363.7,
+      "pop": 6765301,
+      "emp": 5117260,
+      "biz": 930649
+    },
+    {
+      "cutoff": "2016-01-01",
+      "area": "wirye",
+      "threshold": 60,
+      "n_stations": 337,
+      "area_km2": 344.2,
+      "pop": 6616460,
+      "emp": 4800649,
+      "biz": 880987
+    },
+    {
+      "cutoff": "2026-06-21",
+      "area": "pangyo",
+      "threshold": 30,
+      "n_stations": 86,
+      "area_km2": 100.3,
+      "pop": 1474170,
+      "emp": 1558121,
+      "biz": 231376
+    },
+    {
+      "cutoff": "2026-06-21",
+      "area": "wirye",
+      "threshold": 30,
+      "n_stations": 101,
+      "area_km2": 109.3,
+      "pop": 2137201,
+      "emp": 1737711,
+      "biz": 285935
+    },
+    {
+      "cutoff": "2026-06-21",
+      "area": "pangyo",
+      "threshold": 60,
+      "n_stations": 454,
+      "area_km2": 464.1,
+      "pop": 8513520,
+      "emp": 5706222,
+      "biz": 1078205
+    },
+    {
+      "cutoff": "2026-06-21",
+      "area": "wirye",
+      "threshold": 60,
+      "n_stations": 409,
+      "area_km2": 405.4,
+      "pop": 7513086,
+      "emp": 5103044,
+      "biz": 957389
+    }
+  ],
+  "station_info": {
+    "2016-01-01": {
+      "pangyo": {
+        "id": 824,
+        "x": 965581.7676,
+        "y": 1932900.613,
+        "statnm": "판교",
+        "linenm": "신분당선"
+      },
+      "wirye": {
+        "id": 724,
+        "x": 966997.138,
+        "y": 1941359.763,
+        "dist_to_center_m": 1676
+      }
+    },
+    "2026-06-21": {
+      "pangyo": {
+        "id": 824,
+        "x": 965581.7676,
+        "y": 1932900.613,
+        "statnm": "판교",
+        "linenm": "신분당선"
+      },
+      "wirye": {
+        "id": 735,
+        "x": 968136.400739688,
+        "y": 1940425.950114423,
+        "dist_to_center_m": 1465
+      }
+    }
+  },
+  "nearby_800m": {
+    "2016-01-01": {
+      "pangyo": [
+        {
+          "linenm": "신분당선",
+          "statnm": "판교",
+          "eff_begin": "2011-10-28",
+          "dist_m": 0.0
+        }
+      ],
+      "wirye": [
+        {
+          "linenm": "서울8호선",
+          "statnm": "복정",
+          "eff_begin": "1996-11-23",
+          "dist_m": 0.0
+        },
+        {
+          "linenm": "분당선",
+          "statnm": "복정",
+          "eff_begin": "1996-11-23",
+          "dist_m": 18.95134929239496
+        }
+      ]
+    },
+    "2026-06-21": {
+      "pangyo": [
+        {
+          "linenm": "신분당선",
+          "statnm": "판교",
+          "eff_begin": "2011-10-28",
+          "dist_m": 0.0
+        },
+        {
+          "linenm": "경강선",
+          "statnm": "판교",
+          "eff_begin": "2016-09-24",
+          "dist_m": 34.64721010441608
+        },
+        {
+          "linenm": "경강선",
+          "statnm": "성남",
+          "eff_begin": "2024-03-30",
+          "dist_m": 729.2957616394935
+        }
+      ],
+      "wirye": [
+        {
+          "linenm": "서울8호선",
+          "statnm": "남위례",
+          "eff_begin": "2021-12-18",
+          "dist_m": 0.0
+        }
+      ]
+    }
+  }
+}

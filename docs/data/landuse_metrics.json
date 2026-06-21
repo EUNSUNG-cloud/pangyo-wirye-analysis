@@ -1,0 +1,44 @@
+{
+  "pangyo": {
+    "label": "판교TV",
+    "area_ha": 214.0,
+    "n_parcel_lsmd": 340,
+    "n_matched": 109,
+    "vac_pnu_pct": 70.9,
+    "vac_corr_pct": 0.0,
+    "tot_floor_m2": 3238921,
+    "far_pct": 151,
+    "lum_H": 0.39,
+    "lum_norm": 0.355,
+    "pop_in_zone": 5378,
+    "emp_in_zone": 93188,
+    "biz_in_zone": 4037,
+    "job_housing_ratio": 17.33,
+    "cat_area_m2": {
+      "업무·연구": 2906617,
+      "기타비주거": 243394,
+      "상업·근생": 88911
+    }
+  },
+  "wirye": {
+    "label": "위례",
+    "area_ha": 55.9,
+    "n_parcel_lsmd": 339,
+    "n_matched": 90,
+    "vac_pnu_pct": 76.4,
+    "vac_corr_pct": 31.0,
+    "tot_floor_m2": 159680,
+    "far_pct": 29,
+    "lum_H": 0.828,
+    "lum_norm": 0.754,
+    "pop_in_zone": 3768,
+    "emp_in_zone": 1414,
+    "biz_in_zone": 302,
+    "job_housing_ratio": 0.38,
+    "cat_area_m2": {
+      "업무·연구": 106929,
+      "상업·근생": 38285,
+      "기타비주거": 14466
+    }
+  }
+}
