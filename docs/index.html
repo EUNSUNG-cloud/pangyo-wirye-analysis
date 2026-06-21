@@ -156,13 +156,13 @@ body{font-family:'Noto Sans KR',sans-serif;background:#f0f2f5;color:#222;height:
       <div class="section-title">구역계 토지이용 지표</div>
       <table class="ct">
         <tr><th>지표</th><th class="pg">판교TV</th><th class="wr">위례</th></tr>
-        <tr><td>구역 면적</td><td class="pg">214.0 ha</td><td class="wr">55.9 ha</td></tr>
-        <tr><td>LSMD 필지 수</td><td class="pg">340</td><td class="wr">339</td></tr>
-        <tr><td>평균 용적률</td><td class="pg good">151 %</td><td class="wr">29 %</td></tr>
-        <tr><td>공지율 (보정)</td><td class="pg good">~0 %</td><td class="wr">31 %</td></tr>
-        <tr><td>업무시설 연면적</td><td class="pg good">1,990,847 m²</td><td class="wr">2,066 m²</td></tr>
-        <tr><td>업무+연구 연면적</td><td class="pg good">2,906,617 m²</td><td class="wr">106,929 m²</td></tr>
-        <tr><td>LUM 엔트로피</td><td class="pg good">0.39 (업무 집중)</td><td class="wr">0.83 (혼합)</td></tr>
+        <tr><td>구역 면적</td><td class="pg">214.0 ha</td><td class="wr">164.8 ha</td></tr>
+        <tr><td>LSMD 필지 수</td><td class="pg">340</td><td class="wr">304</td></tr>
+        <tr><td>평균 용적률</td><td class="pg good">151 %</td><td class="wr">66 %</td></tr>
+        <tr><td>공지율 (보정)</td><td class="pg good">~0 %</td><td class="wr">57 %</td></tr>
+        <tr><td>업무시설 연면적</td><td class="pg good">1,990,847 m²</td><td class="wr">349,972 m²</td></tr>
+        <tr><td>업무+연구 연면적</td><td class="pg good">2,906,617 m²</td><td class="wr">498,838 m²</td></tr>
+        <tr><td>LUM 엔트로피</td><td class="pg good">0.39 (업무 집중)</td><td class="wr">0.96 (혼합)</td></tr>
       </table>
 
       <div class="section-title">주용도 구성비 (연면적 기준)</div>
@@ -179,8 +179,8 @@ body{font-family:'Noto Sans KR',sans-serif;background:#f0f2f5;color:#222;height:
 
       <div class="highlight-box">
         판교TV 업무·연구시설 비중 <strong>89.7%</strong> (연면적 291만 m²)<br>
-        위례 업무·연구시설 비중 <strong>67.0%</strong> (연면적 10.7만 m²)<br>
-        → 면적 기준 <strong>27.2배</strong> 차이
+        위례 업무·연구시설 비중 <strong>45.6%</strong> (연면적 49.9만 m²)<br>
+        → 면적 기준 <strong>5.8배</strong> 차이
       </div>
       <div class="note">
         * 공지율 보정: 판교는 건물수(423)≈LSMD필지수(421)로 실질공지 ~0%.<br>
@@ -230,12 +230,12 @@ body{font-family:'Noto Sans KR',sans-serif;background:#f0f2f5;color:#222;height:
       <div class="section-title">구역 내 인구·종사자 (집계구 면적비례)</div>
       <table class="ct">
         <tr><th>지표</th><th class="pg">판교TV</th><th class="wr">위례</th></tr>
-        <tr><td>상주인구</td><td class="pg">5,378 명</td><td class="wr good">3,768 명</td></tr>
-        <tr><td>종사자</td><td class="pg good">93,188 명</td><td class="wr">1,414 명</td></tr>
+        <tr><td>상주인구</td><td class="pg">5,378 명</td><td class="wr good">13,079 명</td></tr>
+        <tr><td>종사자</td><td class="pg good">93,188 명</td><td class="wr">12,554 명</td></tr>
         <tr><td>사업체 수</td><td class="pg good">—</td><td class="wr">—</td></tr>
         <tr><td><b>직주비 (종/인)</b></td>
             <td class="pg" style="font-size:16px;font-weight:900">17.33</td>
-            <td class="wr" style="font-size:16px;font-weight:900">0.30</td></tr>
+            <td class="wr" style="font-size:16px;font-weight:900">0.96</td></tr>
       </table>
 
       <div class="section-title">직주비 시각화</div>
@@ -243,8 +243,8 @@ body{font-family:'Noto Sans KR',sans-serif;background:#f0f2f5;color:#222;height:
 
       <div class="highlight-box" style="margin-top:10px">
         판교TV 직주비 <strong>17.33</strong> → 순수 업무지구<br>
-        위례 직주비 <strong>0.38</strong> → 주거 우위 (베드타운)<br>
-        위례 지정 업무지구에 <strong>종사자보다 상주인구가 2.7배</strong> 더 많음
+        위례 직주비 <strong>0.96</strong> → 주거 소폭 우위 (준균형)<br>
+        위례 종사자(12,554명) ≈ 상주인구(13,079명) → <strong>거의 균형 상태</strong>
       </div>
 
       <div class="section-title">인구사회 지표 비교</div>
@@ -477,7 +477,7 @@ function buildSocialCharts() {
       labels:['직주비 (종사자/상주인구)'],
       datasets:[
         {label:'판교TV',   data:[17.33], backgroundColor:'#c0392b', borderRadius:4},
-        {label:'위례',     data:[0.38],  backgroundColor:'#2471a3', borderRadius:4},
+        {label:'위례',     data:[0.96],  backgroundColor:'#2471a3', borderRadius:4},
       ]
     },
     options:{
@@ -495,7 +495,7 @@ function buildSocialCharts() {
       labels:['상주인구', '종사자'],
       datasets:[
         {label:'판교TV', data:[5378,  93188], backgroundColor:'rgba(192,57,43,.8)', borderRadius:4},
-        {label:'위례',   data:[3768,  1414],  backgroundColor:'rgba(36,113,163,.8)', borderRadius:4},
+        {label:'위례',   data:[13079, 12554], backgroundColor:'rgba(36,113,163,.8)', borderRadius:4},
       ]
     },
     options:{
@@ -509,7 +509,7 @@ function buildSocialCharts() {
 function buildChartsHardcoded() {
   // fallback: 하드코딩된 데이터로 차트 생성
   buildPie('pie-pg', {'업무·연구':2906617,'기타비주거':243394,'상업·근생':88911});
-  buildPie('pie-wr', {'상업·근생':265698,'업무·연구':140674,'기타비주거':63893});
+  buildPie('pie-wr', {'업무·연구':498838,'상업·근생':476766,'기타비주거':117540});
   new Chart(document.getElementById('curve-chart'), {
     type:'line',
     data:{labels:[0,5,10,15,20,25,30,35,40,45,50,55,60],
