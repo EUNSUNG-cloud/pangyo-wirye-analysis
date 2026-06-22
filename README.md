@@ -2,12 +2,11 @@
 
 > **연구 질문**: 왜 판교테크노밸리(제1판교)는 업무지구로 성공했고,  
 > 위례신도시 업무·상업용지는 자족 업무지구로 실패했는가?
-
-가천대학교 스마트시티 기말 프로젝트 (2026)  
+  
 공공데이터 기반 토지이용·교통망·인구사회 정량 비교 → GitHub Pages 정적 웹 시스템
 
-**라이브 데모**: `docs/` 폴더를 GitHub Pages 루트로 설정하면 즉시 배포됩니다.  
-로컬 실행: `python -m http.server 8080 --directory docs` → http://localhost:8080
+**라이브 데모**: https://eunsung-cloud.github.io/pangyo-wirye-analysis/
+**로컬 실행**: `python -m http.server 8080 --directory docs` → http://localhost:8080
 
 ---
 
