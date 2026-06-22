@@ -5,8 +5,7 @@
   
 공공데이터 기반 토지이용·교통망·인구사회 정량 비교 → GitHub Pages 정적 웹 시스템
 
-**라이브 데모**: https://eunsung-cloud.github.io/pangyo-wirye-analysis/
-**로컬 실행**: `python -m http.server 8080 --directory docs` → http://localhost:8080
+**배포 시스템**: https://eunsung-cloud.github.io/pangyo-wirye-analysis/
 
 ---
 
